@@ -9,5 +9,5 @@ script:
  - grunt
 
 after_success:
- - release.sh
+ - ./release.sh
  
