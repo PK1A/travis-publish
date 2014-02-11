@@ -9,6 +9,5 @@ script:
  - grunt
 
 after_success:
-  if [ $TRAVIS_PULL_REQUEST = "false" ]; then
-    echo "Build from ${TRAVIS_BRANCH}"
-  fi
+ - release.sh
+ 
