@@ -1,0 +1,17 @@
+{
+  "name": "travis-publish",
+  "version": "0.0.0",
+  "description": "travis-publish ==============",
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PK1A/travis-publish.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/PK1A/travis-publish/issues"
+  },
+  "homepage": "https://github.com/PK1A/travis-publish"
+}
