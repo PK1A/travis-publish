@@ -1,6 +1,6 @@
 {
   "name": "travis-publish",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "travis-publish ==============",
   "devDependencies": {
     "grunt": "~0.4.2"
