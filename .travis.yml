@@ -9,5 +9,6 @@ script:
  - grunt
 
 after_success:
+ - chmod -R 777 ./release.sh
  - ./release.sh
  
