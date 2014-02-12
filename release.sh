@@ -1,5 +1,6 @@
 if [ $TRAVIS_PULL_REQUEST = "false" ]; then
     # setup git user name / e-mail
+    git remote -v
     git config user.email "releasebot@ariatemplates.com"
     git config user.name "Release Bot"
     # check-in & push
