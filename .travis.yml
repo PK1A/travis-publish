@@ -2,6 +2,10 @@ language: node_js
 node_js:
   - "0.10"
 
+env:
+  global:
+    secure: MdntYCP5jCw2PZs/pRHbcLS0Ish8VUmK7EpTFXvhi7edyIUFLd/ivqlPBbD6iJCet1LhF2umVV1pc4ol6mmhAhP46aIjSwY7dFDB9T67DfNkA1c8Yk+FMZqU65o5oF84Y5W7TMlVVt6irbxEnJDr9NZi4LzvSiW3xXiz+onepOA=
+
 before_install:
  - npm install --quiet -g grunt-cli
 
@@ -9,6 +13,5 @@ script:
  - grunt
 
 after_success:
- - chmod -R 777 ./release.sh
  - ./release.sh
  
